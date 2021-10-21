@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'segoe ul';
+    font-weight: 400;
+    background-color: #ededed;
+}
+
+.footer {
+    padding: 40px 0;
+    background-color: rgb(180, 180, 180);
+}
+
+.footer .social {
+    text-align: center;
+    padding-bottom: 15px;
+    color: #0c0c0c;
+}
+
+.footer .social a {
+    font-size: 26px;
+    color: inherit;
+    border: 1px solid rgb(5, 5, 5);
+    width: 50px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+    padding-top: 7px;
+}
+
+.footer .social a:hover {
+    opacity: 0.9;
+    color: #693f04;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a {
+    color: #000;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul li a:hover {
+    opacity: 1;
+    color: #693f04;
+}
