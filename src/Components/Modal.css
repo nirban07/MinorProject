@@ -4,14 +4,15 @@
 	top:0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgb(255, 255, 255);
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	/* box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff; */
 }
 
 .modal-content{
-	width: 500px;
+	width: 80%;
 	background-color: #fff;
 
 }
