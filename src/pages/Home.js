@@ -8,13 +8,13 @@ import Banner from '../Components/Banner';
 import Services from '../Components/Services';
 import FeaturedRooms from '../Components/FeaturedRooms';
 
-
+import Register from '../Components/Register';
 import Modal from '../Components/Modal';
 import { FaFileExcel } from 'react-icons/fa';
 import { red } from '@material-ui/core/colors';
 
 export default function Home() {
-    const [show,setShow] = useState(false);
+    const [route,routePath] = useState("")
 
     return (
         <>
@@ -22,8 +22,9 @@ export default function Home() {
             <Banner title="We provide solutions!" subtitle="Courses starting at $99">
               {/* <Link to="/Rooms" className="btn-primary ">GET STARTED</Link> */}
             </Banner>
-            <button onClick={()=>setShow(true)}>Get Started</button>
-            <Modal onClose={()=>setShow(false)} show={show}/>
+            <button  onClick={()=>{routePath("signin")}}>Get started</button>
+            <Modal  routePath = {routePath} route={route} />
+            <Register routePath = {routePath} route={route}/>
         </Hero>
         <About />
         <Services/>
