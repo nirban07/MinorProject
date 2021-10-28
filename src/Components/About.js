@@ -16,7 +16,6 @@ export default class FeaturedRooms extends Component {
                         <div className="fbox2">
                             <h4>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores corrupti, illum soluta, quis corporis consequatur voluptate possimus dolorum harum cupiditate voluptatibus doloribus nihil libero beatae nobis, accusantium reprehenderit eaque quam.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores deserunt harum reprehenderit odio eum soluta delectus qui tempore? Sed excepturi voluptas illo placeat aspernatur vitae nihil necessitatibus a velit et?
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores corrupti, illum soluta, quis corporis consequatur voluptate possimus dolorum harum cupiditate voluptatibus doloribus nihil libero beatae nobis, accusantium reprehenderit eaque quam.
                             </h4>
                         </div>

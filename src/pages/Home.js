@@ -19,16 +19,17 @@ export default function Home() {
     return (
         <>
         <Hero>
-            <Banner title="We provide solutions!" subtitle="Courses starting at $99">
+            <Banner title="We provide solutions!" subtitle="Start your learning jounry today!">
               {/* <Link to="/Rooms" className="btn-primary ">GET STARTED</Link> */}
+              <button className="f6 link dim ba ph3 pv2 mb2 dib black" onClick={()=>{routePath("signin")}}>Get started</button>
             </Banner>
-            <button  onClick={()=>{routePath("signin")}}>Get started</button>
+            
             <Modal  routePath = {routePath} route={route} />
             <Register routePath = {routePath} route={route}/>
         </Hero>
         <About />
         <Services/>
-        <FeaturedRooms />
+        {/* <FeaturedRooms /> */}
         <Team />
         <Footer />
        

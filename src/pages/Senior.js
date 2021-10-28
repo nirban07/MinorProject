@@ -14,7 +14,7 @@ export default function Room(){
         <Link to='/' className="btn-primary">return home</Link>
         </Banner>
       </Hero>
-      <SerniorsMeet />
+      {/* <SerniorsMeet /> */}
       <Footer />
       </>
     )
