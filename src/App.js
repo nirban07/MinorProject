@@ -20,7 +20,7 @@ function App() {
   <Route exact path="/Seniors" component={Seniors}/>
   <Route  component={Error}/>
   </Switch>
- 
+    Hello testing
   </>
   );
 }
